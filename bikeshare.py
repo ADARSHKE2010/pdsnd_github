@@ -21,10 +21,7 @@ def get_filters():
         city = input("\n Enter the city you want to filter by\n").lower()
         if(city=='chicago' or city == 'new york' or city == 'washington'):
             break
-<<<<<<< HEAD
-	
-=======
->>>>>>> documentation
+
         else:
             city = input('Enter Correct city: ').lower()
 
@@ -34,13 +31,14 @@ def get_filters():
         if(month == 'january' or month == 'february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all'):
             break
         else:
-            month=input("Enter a correct month: ").lower()
+            month=input("Enter a correct month: ").lower()  #converting to lowercase
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input("\n Enter the day you are looking for or type 'all' for no preference.\n")
         if(day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'sunday' or day == 'all'):
             break
+
         else:
             day=input("enter a correct day: ").lower()
 
@@ -126,7 +124,7 @@ def station_stats(df):
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')
+    print('\nTrip Duration calculating...\n')
     start_time = time.time()
 
     # TO DO: display total travel time
