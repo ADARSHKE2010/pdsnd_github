@@ -38,7 +38,7 @@ def get_filters():
         day = input("\n Enter the day you are looking for or type 'all' for no preference.\n")
         if(day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'sunday' or day == 'all'):
             break
-            
+
         else:
             day=input("enter a correct day: ").lower()
 
@@ -124,7 +124,7 @@ def station_stats(df):
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
 
-    print('\nCalculating Trip Duration...\n')
+    print('\nTrip Duration calculating...\n')
     start_time = time.time()
 
     # TO DO: display total travel time
