@@ -34,7 +34,7 @@ def get_filters():
         if(month == 'january' or month == 'february' or month == 'march' or month == 'april' or month == 'may' or month == 'june' or month == 'all'):
             break
         else:
-            month=input("Enter a correct month: ").lower()
+            month=input("Enter a correct month: ").lower()  #converting to lowercase
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
