@@ -12,5 +12,5 @@ Using Python, I will write a code import the data compute descriptive statistics
 I have used chicago.csv, new_york_city.csv, washington.csv files for this project.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I have learned every thing required to build this project from UDACITY.
 
