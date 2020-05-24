@@ -21,10 +21,7 @@ def get_filters():
         city = input("\n Enter the city you want to filter by\n").lower()
         if(city=='chicago' or city == 'new york' or city == 'washington'):
             break
-<<<<<<< HEAD
-	
-=======
->>>>>>> documentation
+
         else:
             city = input('Enter Correct city: ').lower()
 
@@ -41,6 +38,7 @@ def get_filters():
         day = input("\n Enter the day you are looking for or type 'all' for no preference.\n")
         if(day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday' or day == 'saturday' or day == 'sunday' or day == 'all'):
             break
+            
         else:
             day=input("enter a correct day: ").lower()
 
